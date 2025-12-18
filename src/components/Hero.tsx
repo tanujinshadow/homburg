@@ -33,7 +33,7 @@ const Hero = () => {
             </div>
 
             {/* Trust badges */}
-            <div className="mt-10 items-center justify-center lg:justify-start gap-6 opacity-0 animate-fade-up stagger-4 flex flex-col">
+            <div className="mt-10 lg:justify-start gap-6 opacity-0 animate-fade-up stagger-4 flex-row flex items-center justify-center">
               <div className="text-center">
                 <div className="text-2xl font-bold text-foreground">500+</div>
                 <div className="text-sm text-muted-foreground">Happy Customers</div>
