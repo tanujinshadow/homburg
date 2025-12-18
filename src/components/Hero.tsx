@@ -1,13 +1,10 @@
 import heroBurger from '@/assets/hero-burger.jpg';
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+  return <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background gradient */}
-      <div 
-        className="absolute inset-0 opacity-50"
-        style={{ background: 'var(--gradient-hero)' }}
-      />
+      <div className="absolute inset-0 opacity-50" style={{
+      background: 'var(--gradient-hero)'
+    }} />
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -58,11 +55,7 @@ const Hero = () => {
           <div className="order-1 lg:order-2 flex justify-center opacity-0 animate-fade-up">
             <div className="relative">
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl transform scale-75" />
-              <img
-                src={heroBurger}
-                alt="Delicious gourmet burger with fresh ingredients"
-                className="relative w-full max-w-md lg:max-w-lg xl:max-w-xl rounded-3xl shadow-elevated animate-bounce-soft"
-              />
+              <img alt="Delicious gourmet burger with fresh ingredients" className="relative w-full max-w-md lg:max-w-lg xl:max-w-xl rounded-3xl shadow-elevated animate-bounce-soft" src="/lovable-uploads/8ba17cb7-b6ac-4d92-8bf1-3b876bcf3d17.jpg" />
             </div>
           </div>
         </div>
@@ -74,8 +67,6 @@ const Hero = () => {
           <div className="w-1.5 h-2.5 bg-primary rounded-full" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
