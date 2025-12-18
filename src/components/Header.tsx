@@ -27,7 +27,7 @@ const Header = ({
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
             <span className="text-2xl">🍔</span>
-            <span className="text-xl text-foreground bg-primary-foreground font-extralight font-mono">HOMBURG</span>
+            <span className="text-xl text-foreground font-extralight font-mono bg-neutral-100">HOMBURG</span>
           </a>
 
           {/* Desktop Nav */}
