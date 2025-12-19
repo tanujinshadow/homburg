@@ -55,7 +55,7 @@ const Hero = () => {
           <div className="order-1 lg:order-2 flex justify-center opacity-0 animate-fade-up">
             <div className="relative">
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl transform scale-75" />
-              <img alt="Delicious gourmet burger with fresh ingredients" className="relative w-full max-w-md lg:max-w-lg xl:max-w-xl rounded-3xl shadow-elevated animate-bounce-soft" src="/lovable-uploads/ea5c79fd-7a67-4e8e-bb05-1bb574707994.jpg" />
+              <img alt="Delicious gourmet burger with fresh ingredients" className="relative w-full max-w-md lg:max-w-lg xl:max-w-xl rounded-3xl shadow-elevated animate-bounce-soft" src="/lovable-uploads/7a55ebb0-86c1-4d90-8402-1b0c09359c32.jpg" />
             </div>
           </div>
         </div>
